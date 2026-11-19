@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#070e1c"><title>Pricing That Converts — Six Decisions</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="ambient"></div>
+<header class="header"><a class="brand" href="#"><span>✳</span> PRICING LAB <small>CONVERSION STUDIES</small></a><nav><a href="#pricing">Pricing</a><a href="#principles">Six decisions</a><a class="nav-cta" href="#pricing">View plans ↗</a></nav></header>
+<main>
+<section class="hero"><div class="eyebrow"><i></i> UPGRADE 01 — 06 / PRICING UX</div><h1>Pricing tables<br><em>that convert.</em></h1><p>Six deliberate design decisions that turn a pricing grid into a clear, confident choice.</p><a href="#pricing" class="hero-link">EXPLORE THE PRICING TABLE ↓</a></section>
+<section class="pricing-section" id="pricing">
+ <div class="section-label">SIMPLE PLANS · CLEAR VALUE</div><h2>The right plan for <em>your next step.</em></h2>
+ <p class="section-sub">Start small. Upgrade when you're ready. No hidden fees.</p>
+ <div class="billing-switch"><span class="billing-label active" id="monthlyLabel">Monthly</span><button id="billingToggle" class="toggle" role="switch" aria-checked="false" aria-label="Toggle yearly billing"><span></span></button><span class="billing-label" id="yearlyLabel">Yearly <b>−20%</b></span></div>
+ <div class="cards" id="planCards">
+  <article class="plan-card" data-plan="starter" tabindex="0">
+   <div class="plan-kicker">STARTER</div><div class="price-line"><span class="currency">$</span><strong class="price" data-month="15" data-year="12">15</strong><span class="per">/mo</span></div><div class="billed" data-billed-month="Billed monthly" data-billed-year="$180 billed yearly">Billed monthly</div>
+   <ul><li>1 project</li><li>5 GB storage</li><li>Email support</li></ul><button class="plan-button outline" data-action="Get started">Get started</button>
+  </article>
+  <article class="plan-card featured" data-plan="pro" tabindex="0">
+   <div class="popular">MOST POPULAR</div><div class="plan-kicker">PRO</div><div class="price-line"><span class="currency">$</span><strong class="price" data-month="30" data-year="24">30</strong><span class="per">/mo</span></div><div class="billed" data-billed-month="Billed monthly" data-billed-year="$360 billed yearly">Billed monthly</div>
+   <ul><li>10 projects</li><li>100 GB storage</li><li>Priority support</li></ul><button class="plan-button primary" data-action="Start free trial">Start free trial</button>
+  </article>
+  <article class="plan-card" data-plan="team" tabindex="0">
+   <div class="plan-kicker">TEAM</div><div class="price-line"><span class="currency">$</span><strong class="price" data-month="60" data-year="48">60</strong><span class="per">/mo</span></div><div class="billed" data-billed-month="Billed monthly" data-billed-year="$720 billed yearly">Billed monthly</div>
+   <ul><li>Unlimited</li><li>1 TB storage</li><li>24/7 support</li></ul><button class="plan-button outline" data-action="Contact sales">Contact sales</button>
+  </article>
+ </div>
+ <div class="selection-feedback" id="selectionFeedback" aria-live="polite">Choose a plan to see your selection confirmed.</div>
+ <div class="trust-row"><span>✓ No setup fees</span><span>✓ Cancel anytime</span><span>✓ Secure checkout</span></div>
+</section>
+<section class="principles" id="principles"><div class="eyebrow"><i></i> THE SIX DECISIONS</div><h2>Same plans.<br><em>Six decisions.</em></h2><p class="principle-intro">The product stays the same. The presentation removes friction one decision at a time.</p>
+ <div class="principle-list">
+  <article class="principle"><b>01</b><div><h3>Hierarchy <span>— The price speaks first.</span></h3><p>Use a bold 52px price, while plan labels and supporting details stay quiet and compact.</p></div><span class="metric">52px PRICE</span></article>
+  <article class="principle"><b>02</b><div><h3>Spacing <span>— Room to compare.</span></h3><p>Give three cards room to breathe with 20px gaps, 24px padding, and clear 14px feature rows.</p></div><span class="metric">20 / 24 / 14</span></article>
+  <article class="principle"><b>03</b><div><h3>Emphasis <span>— One plan to pick.</span></h3><p>Make one recommended plan obvious with an accent border, a badge, and the only filled button.</p></div><span class="metric">ONE DEFAULT</span></article>
+  <article class="principle"><b>04</b><div><h3>Depth <span>— Lift the pick.</span></h3><p>Raise the featured card 16px with a soft shadow and a slightly stronger edge so it feels like the front choice.</p></div><span class="metric">16px LIFT</span></article>
+  <article class="principle"><b>05</b><div><h3>Anchor <span>— Show the saving.</span></h3><p>Make yearly billing the default discount view, show the monthly price struck through, and state the saving clearly.</p></div><span class="metric">−20% YEARLY</span></article>
+  <article class="principle"><b>06</b><div><h3>Motion <span>— Every click answers.</span></h3><p>Hover lifts the plan, billing rolls the price, and pressing confirms the action with clear feedback.</p></div><span class="metric">100ms / 300ms</span></article>
+ </div>
+ <div class="rule"><b>RULE</b><strong>One recommended plan. One filled button. Every action gives feedback.</strong></div>
+</section>
+<footer><span>PRICING LAB / CONVERSION STUDIES</span><span>DESIGN THE DECISION.</span><span>© 2026</span></footer>
+</main>
+<div class="toast" id="toast" role="status"></div>
+<script src="app.js"></script>
+</body></html>
